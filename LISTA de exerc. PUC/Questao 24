@@ -1,0 +1,32 @@
+mu=0
+s=0
+n=0
+h=0
+ms=0
+hn=0
+for mu in range(1,11):
+    m=str(input('Responda com Sim ou Nao /n Voce é do sexo feminino? '))
+    g=str(input('Responda com Sim ou Nao /n Voce gostou no produto wav?'))
+    if m=='sim':
+            mu=mu+1
+    if m=='nao':
+            h=h+1
+    if g=='sim':
+            s=s+1
+    if g=='nao':
+        n=n+1
+    if m=='sim' and g=='sim':
+        ms=ms+1
+    if m=='nao' and g=='nao':
+        hn=hn+1    
+print('Numero de pessoas que responderam sim: ',s)
+
+print('Numero de pessoas que responderam nao: ',n)
+
+print('Numero de mulheres que responderam sim: ',ms*100/10)
+
+print('% de homens que responderam nao: ',hn*100/10)
+
+
+    
+    

@@ -1,0 +1,12 @@
+total=0
+media=0
+aum=20/100
+for cod in range(1,6):
+    cod=int(input('digite o codigo do produto'))
+    pre=int(input('digite o valor de custo do produto'))
+    total+=pre
+    media+=pre*aum+pre
+    print("codigo do produto: ",cod)
+    print('novo valor do produto: ',pre*aum+pre)
+print('media do preco de custo é: ',total/5)
+print('media de preco atualizado é: ',media/5)

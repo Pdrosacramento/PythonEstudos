@@ -1,0 +1,15 @@
+ms=0
+mf=0
+pc=0
+for i in range(1,11):
+    s=int(input('Digite o seu salario: '))
+    ms+=s
+    if s<=150:
+        pc=pc+1
+    f=int(input('Quantos filhos voce tem? '))
+    mf+=f
+    if s<=0:
+        break
+print('media salarial: ',ms/i)
+print('media de filhos: ',mf/i)
+print('% das pessoas qeu recebem 150,00 ou menos:  ',pc*100/i,'%')

@@ -1,0 +1,12 @@
+p=int(input('primeiro valor'))
+s=int(input('segundo valor'))
+o=str(input('Escolha a operão :A=adição B=subtração C=divisao D=multiplicação :'))
+if o=='a':
+    print(p,'+',s,'=',p+s)
+if o=='b':
+    print(p,'-',s,'=',p-s)
+if o=='c':
+    print(p,'%',s,'=',p/s)
+if o=='d':
+    print(p,'*',s,'=',p*s)
+   

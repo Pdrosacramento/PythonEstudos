@@ -1,0 +1,22 @@
+a=0
+b=0
+c=0
+d=0
+e=0
+for i in range(1,16):
+    i=int(input('digite a sua idade'))
+    if i >=61:
+        e=e+1
+    if i <=60 and i>=46:
+        d=d+1
+    if i <=45 and i>=31:
+        c=c+1
+    if i <=30 and i>=16:
+        b=b+1  
+    if i <=15:
+        a=a+1
+print('Quantidade de pessoa por faixa etaria: A:',a,'B:',b,'C:',c,'D:',d,'E:',e)    
+print('Porcentagem de pessoas na faixa etaria A e E: ',a+e*100/15)
+
+    
+    

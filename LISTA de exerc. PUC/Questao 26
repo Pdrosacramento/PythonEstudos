@@ -1,0 +1,7 @@
+m=0
+for i in range(1,5):
+    i=int(input('Digite a sua idade: '))
+    m+=i
+print('media das idades apresentadas: ',m/2)
+
+print('Media=0')

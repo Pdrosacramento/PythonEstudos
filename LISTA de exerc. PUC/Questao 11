@@ -1,0 +1,17 @@
+prazo=0
+prestacao=0
+vista=0
+total=0
+for valor in range (1,16):
+    valor=int(input('digite o valor da sua compra: '))
+    total+=valor
+    m=str(input('digite P para pagamento a prazo e V para pagamento a vista: '))
+    if m=='p':
+        prazo=prazo+1
+        prestacao+=valor
+    else:
+        vista=vista+1
+print("total em compras a vista: ",vista)
+print('total em compras a prazo: ',prazo)
+print('total em vendas: ',total)
+print('valor da primeira prestação das compras a prazo 3X:',prestacao/3,'Reais')

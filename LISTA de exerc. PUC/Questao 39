@@ -1,0 +1,15 @@
+p=1.5/100
+pp=2/100
+rd=4/100
+c=int(input('Digite seu codigo: '))
+t=int(input('Digite o numero correspondente:Poupança-Digite 1, PoupançaPlus-Digite 2, Fundo de renda fixa-Digite 3: '))
+v=int(input('digite o valor investido'))
+if t==1:
+    print('valor investido:',v)
+    print('total de juros pagos: ',v*p)
+elif t==2:
+    print('valor investido:',v)
+    print('total de juros pagos: ',v*pp)
+elif t==3:
+    print('valor investido:',v)
+    print('total de juros pagos: ',v*rd)
